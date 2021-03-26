@@ -67,9 +67,13 @@ function newFunction() {
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(){
+    const displayNames = zooAnimals.slice(1, 4);
+    displayNames.forEach(function(item){
+      console.log(item);
+    });
   }
+  
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
